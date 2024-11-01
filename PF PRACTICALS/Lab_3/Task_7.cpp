@@ -4,7 +4,7 @@ convert it into Fahrenheit by using F=9/5 *C +32;. */
 #include<iostream>
 using namespace std;
 int main(){
-	int c,f;
+	float c,f;
 	
 	cout<<"Enter Temperature In Celcius : ";
 	cin>>c;
