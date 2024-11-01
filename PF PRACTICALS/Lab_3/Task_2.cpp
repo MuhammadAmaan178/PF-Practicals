@@ -13,7 +13,7 @@ int main(){
 	cin>>name;
 	cout<<"Enter Your Address : ";
 	cin>>address;
-	cout<<"Enter Your Age : ";
+	cout<<"Enter Your Age In Numbers : ";
 	cin>>age;
 	
 	cout<<"****************************"<<endl;
