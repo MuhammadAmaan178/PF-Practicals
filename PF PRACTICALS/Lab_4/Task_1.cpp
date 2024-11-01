@@ -6,7 +6,7 @@ entered is less than or greater than 10? */
 using namespace std;
 
 int main(){
-	int num;
+	float num;
 	cout<<"Enter The Number : ";
 	cin>>num;
 	
