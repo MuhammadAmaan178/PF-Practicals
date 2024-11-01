@@ -6,7 +6,8 @@ Remainder=2)*/
 using namespace std;
 
 int main(){
-	int dividend,divisor,quotient,remainder;
+	float dividend,divisor,quotient;
+	int remainder;
 	
 	cout<<"Enter Dividend : ";
 	cin>>dividend;
@@ -14,7 +15,7 @@ int main(){
 	cin>>divisor;
 	
 	quotient = dividend/divisor;
-	remainder = dividend%divisor;
+	remainder = (int)dividend%(int)divisor;
 	
 	cout<<"Dividend : "<<dividend<<endl;
 	cout<<"Divisor : "<<divisor<<endl;
