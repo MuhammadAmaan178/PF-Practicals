@@ -5,7 +5,7 @@ Now calculate area by using formula Area=1/2 x base x height;. */
 using namespace std;
 
 int main(){
-	int base,height,area;
+	float base,height,area;
 	
 	cout<<"Enter Base Of Triangle : ";
 	cin>>base;
