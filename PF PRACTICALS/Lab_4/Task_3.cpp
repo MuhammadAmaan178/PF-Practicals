@@ -8,7 +8,7 @@ to Fahrenheit or Kelvin? */
 using namespace std;
 
 int main(){
-	int temp;
+	float temp;
 	cout<<"Enter The Temperature In Celsius : ";
 	cin>>temp;
 	
@@ -16,8 +16,8 @@ int main(){
 	cout<<"Enter In Which You Want To Convert (F for Farenheit and K for Kelvin) : ";
 	cin>>x;
 	
-	int temp_f = ((9*temp)/5)+32;
-	int temp_k = temp + 273.15;
+	float temp_f = ((9*temp)/5)+32;
+	float temp_k = temp + 273.15;
 
 	if (x == 'F'){
 		cout<<temp<<" In Farenhite Is "<<temp_f<<endl;
