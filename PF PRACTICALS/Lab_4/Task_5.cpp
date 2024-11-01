@@ -5,7 +5,7 @@ According to your grading system mark the user entered numbers as Grade A, B, C,
 using namespace std;
 
 int main(){
-	int num;
+	float num;
 	cout<<"Enter Your Numbers : ";
 	cin>>num;
 	
