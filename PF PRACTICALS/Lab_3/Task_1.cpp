@@ -14,8 +14,8 @@ int main(){
 	cin>>num_2;
 	
 //	changing float to integer
-	int int_num_1 = num_1;
-	int int_num_2 = num_2;
+	int int_num_1 = (int)num_1;
+	int int_num_2 = (int)num_2;
 	
 //	using modulus operator to get remaainder
 	int result = int_num_1 % int_num_2;
@@ -25,4 +25,3 @@ int main(){
 	
 	return 0;
 }
-
